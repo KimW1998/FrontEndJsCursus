@@ -11,5 +11,6 @@
   letter-spacing: 0px;
   color: #087164;
   opacity: 1;
+  padding-bottom: 10px;
 }
 </style>

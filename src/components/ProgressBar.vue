@@ -1,5 +1,5 @@
 <template>
-<div class="ProgressBar d-flex justify-center">
+<div class="ProgressBar d-flex justify-center mx-auto">
     <v-progress-linear
      value="40"
      color="red"
@@ -14,5 +14,6 @@
 <style>
 .ProgressBar {
     padding-top:50px;
+    width: 70%;
 }
 </style>

@@ -6,8 +6,8 @@
 
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="45"
-      height="45"
+      width="90"
+      height="90"
       viewBox="0 0 45 45"
     >
       <defs></defs>
@@ -43,7 +43,7 @@ transform: translateY(-50%);
 }
 
 .Badge__Content {
-  line-height: 45px;
+  line-height: 90px;
   position: absolute;
   text-align: center;
   width: 40px;

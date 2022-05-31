@@ -22,7 +22,28 @@
               </FeaturedCardTop>
               <v-card-text>
                 <Badge />
-                <h1>Behaalde punten</h1>
+                <h1 class="text-center">Behaalde punten</h1>
+              </v-card-text>
+			  <hr />
+			  <v-card-text>
+                <BadgeAchievements />
+                <h4 class="text-center">Inloggen</h4>
+				<br />
+				<p class="text-center">Eerste keer ingelogd</p>
+              </v-card-text>
+			  <hr />
+			  <v-card-text>
+                <BadgeAchievements />
+                <h4 class="text-center">Profiel</h4>
+				<br />
+				<p class="text-center">Eerste</p>
+              </v-card-text>
+			  <hr />
+			  <v-card-text>
+                <BadgeAchievements />
+                <h4 class="text-center">Comment</h4>
+				<br />
+				<p class="text-center">Comment bij een thema</p>
               </v-card-text>
             </FeaturedCard>
           </v-col>
@@ -44,6 +65,7 @@
                 <LearnCard>
                   <LearnCardTop> </LearnCardTop>
 				  <BadgeLearn />
+				  <p class="text-center">2 / 5 voltooid</p>
 					<ProgressBar/>
                   <v-card-text>
                     <h1 class="text-center">Leeractiviteiten</h1>
@@ -52,6 +74,9 @@
                       en verdien de bronze badge!
                     </p>
                   </v-card-text>
+				  <LearnCardBottom>
+					  
+				  </LearnCardBottom>
                 </LearnCard>
               </v-col>
             </v-row>

@@ -45,14 +45,14 @@
           <v-col>
             <v-row>
               <v-col :cols="12" md="auto grow">
-                <v-card>
-                  <h1>Behaalde Badges</h1>
+                
+                  <Title>Behaalde Badges</Title>
                   <p>
                     Sommige gebruikers weten niet wat coaches doen dus moeten ze
                     wat geholpen worden. Een zin zoals deze is een goede manier
                     om ze op weg te helpen.
                   </p>
-                </v-card>
+                
               </v-col>
             </v-row>
             <v-row>

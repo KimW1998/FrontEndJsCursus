@@ -2,7 +2,11 @@
   <v-app>
     <v-main>
       <v-container>
-        
+		  <v-row>
+			  <v-col>
+		  <TopBannerBackgroundLight />
+		  </v-col>
+        </v-row>
         <Title>Overzicht van je rewards</Title>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

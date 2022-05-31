@@ -26,26 +26,20 @@
                 <h1 class="text-center">Behaalde punten</h1>
               </v-card-text>
 			  <hr />
-			  <v-card-text>
+			  <v-row v-for="n in 3" :key="n">
+				  <v-col :col="2">
                 <BadgeAchievements />
-                <h4 class="text-center">Inloggen</h4>
-				<br />
-				<p class="text-center">Eerste keer ingelogd</p>
-              </v-card-text>
-			  <hr />
+				</v-col>
+				<v-col :col="10">
 			  <v-card-text>
-                <BadgeAchievements />
-                <h4 class="text-center">Profiel</h4>
+                <h4>Inloggen</h4>
 				<br />
-				<p class="text-center">Eerste</p>
+				<p>Eerste keer ingelogd</p>
               </v-card-text>
-			  <hr />
-			  <v-card-text>
-                <BadgeAchievements />
-                <h4 class="text-center">Comment</h4>
-				<br />
-				<p class="text-center">Comment bij een thema</p>
-              </v-card-text>
+			  </v-col>
+			  </v-row>
+			  
+			  
             </FeaturedCard>
           </v-col>
           <v-col>

@@ -39,6 +39,7 @@
   letter-spacing: 0px;
   color: #00504a;
   display: flex;
+transform: translateY(-50%);
 }
 
 .Badge__Content {

@@ -14,11 +14,10 @@ height: 50px;
 }
 
 h1 {
-    color: #00504A;
+color: #00504A;
 opacity: 1;
 font-size: 14px;
 left: 0.34130859375px;
-
 height: 19px;
 padding-top: 25px;
 transform: translateY(-50%);

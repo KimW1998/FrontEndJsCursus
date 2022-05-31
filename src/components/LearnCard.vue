@@ -1,11 +1,11 @@
 <template>
-    <div class="FeaturedCard">
+    <div class="LearnCard">
         <slot/>
     </div>
 </template>
 
 <style scoped>
-.FeaturedCard {
+.LearnCard {
     color: black;
     position: relative;
     background: rgb(238, 236, 236) 0% 0% no-repeat padding-box;

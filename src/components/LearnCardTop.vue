@@ -1,11 +1,11 @@
 <template>
-    <div class="FeaturedCardTop">
+    <div class="LearnCardTop">
         <slot/>
     </div>
 </template>
 
 <style scoped>
-.FeaturedCardTop {
+.LearnCardTop {
     font: normal normal bold 16px/19px Open Sans;
     color: white;
     text-align: center;

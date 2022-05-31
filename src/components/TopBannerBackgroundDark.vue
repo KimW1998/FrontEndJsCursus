@@ -1,5 +1,6 @@
 <template>
   <div class="TopBannerBackgroundDark">
+    <NavigationBar />
     <slot />
   </div>
 </template>

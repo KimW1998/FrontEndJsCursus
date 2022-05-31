@@ -5,6 +5,7 @@
 		  <v-row>
 			  <v-col>
 		  <TopBannerBackgroundLight />
+		  
 		  </v-col>
         </v-row>
         <Title>Overzicht van je rewards</Title>

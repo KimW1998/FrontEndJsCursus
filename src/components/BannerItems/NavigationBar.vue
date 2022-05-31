@@ -5,7 +5,7 @@
         <v-col :sm="2">
       <h1>Logo</h1>
       </v-col>
-         <v-col :sm="2">
+         <v-col :sm="3">
       <h1>Search</h1>
       </v-col>
       <v-col :sm="1">
@@ -40,14 +40,13 @@ opacity: 1;
 height: 130px;
 }
 
-.NavigationBar--Link-home {
+a{
 padding-top: 100px;
 transform: translateY(-90%);
-
 }
-.NavigationBar--Link-KennisPlein {
-padding-top: 100px;
-transform: translateY(-90%);
 
+h1 {
+  padding-left: 60px;
 }
+
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="Badge d-flex justify-center">
     <div class="Badge__Content">
-        <slot>?</slot>
+        
     </div>
 
     <svg
@@ -40,13 +40,6 @@
   color: #00504a;
   display: flex;
   transform: translateY(-80%);
-}
-
-.Badge__Content {
-  line-height: 45px;
-  position: absolute;
-  text-align: center;
-  width: 40px;
 }
 
 .a {

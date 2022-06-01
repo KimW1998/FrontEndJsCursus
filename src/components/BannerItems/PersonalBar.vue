@@ -1,9 +1,9 @@
 <template>
 <v-toolbar class="PersonalBar" color="#E6F3E9" flat
-    height="200px"
+    height="50px"
     tile>
-      <h1>Welkom Kim Wauben</h1>
       <v-icon class="icon--account">mdi-account</v-icon>
+      <h1>Welkom Kim Wauben</h1>
       <v-spacer></v-spacer>
       <v-icon class="icon--medal">mdi-medal</v-icon>
       <v-icon class="icon--medal">mdi-bell</v-icon>
@@ -18,7 +18,6 @@
 background: var(--unnamed-color-e6f3e9) 0% 0% no-repeat padding-box;
 background: #E6F3E9 0% 0% no-repeat padding-box;
 opacity: 1;
-height: 50px;
 }
 
 h1 {
@@ -27,18 +26,8 @@ opacity: 1;
 font-size: 14px;
 left: 0.34130859375px;
 height: 19px;
-padding-top: 25px;
-transform: translateY(-50%);
 padding-left: 35px;
 }
 
-.icon--account {
-  height: 19px;
 
-}
-
-.icon--medal {
-
-
-}
 </style>

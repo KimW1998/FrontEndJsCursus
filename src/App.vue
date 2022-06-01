@@ -9,7 +9,7 @@
 		  
 		  </v-col>
         </v-row>
-		<v-container class="card--page">
+	
         <Title>Overzicht van je rewards</Title>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -18,7 +18,7 @@
         <br />
 		<br />
         <v-row>
-          <v-col :sm="12" style="max-width: 285px">
+          <v-col :sm="4" >
             <FeaturedCard>
               <FeaturedCardTop>
                 <div>Persoonlijke Punten</div>
@@ -30,13 +30,12 @@
               </v-card-text>
 			  <hr />
 			  <v-row v-for="n in 3" :key="n">
-				  <v-col :col="2">
+				  <v-col cols="2" class="pa-0">
                 <BadgeAchievements />
 				</v-col>
-				<v-col :col="10">
+				<v-col cols="10" class="pa-0">
 			  <v-card-text>
                 <h4>Inloggen</h4>
-				<br />
 				<p>Eerste keer ingelogd</p>
               </v-card-text>
 			  </v-col>
@@ -80,14 +79,10 @@
             </v-row>
           </v-col>
         </v-row>
+		</v-content>
 		</v-container>
-      </v-container>
+      
     </v-main>
   </v-app>
 </template>
 
-<style scoped>
-.card--page {
-	padding: 30px 345px 0px 345px;
-}
-</style>

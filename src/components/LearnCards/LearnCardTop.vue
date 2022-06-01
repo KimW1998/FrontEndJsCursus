@@ -10,6 +10,8 @@
     color: white;
     text-align: center;
     background: #00504A 0% 0% no-repeat padding-box;
+    background: url('/Images/LearnCardBackground.png');
+    background-size: cover;
     height: 77px;
 }
 </style>

@@ -3,10 +3,10 @@
       <PersonalBar />
       <v-row>
         <v-col :sm="2">
-      <h1>Logo</h1>
+      <h1 class="NavigationBar--logo">CLASS</h1>
       </v-col>
          <v-col :sm="3">
-      <h1>Search</h1>
+      <v-btn class="NavigationBar--Search">Search</v-btn>
       </v-col>
       <v-col :sm="1">
       <a href="test" class="NavigationBar--Link-home">Home</a>
@@ -47,6 +47,20 @@ transform: translateY(-90%);
 
 h1 {
   padding-left: 60px;
+}
+
+.NavigationBar--logo {
+opacity: 1;
+height: 19px;
+padding-top: 25px;
+transform: translateY(-50%);
+padding-left: 240px;
+}
+
+.NavigationBar--Search {
+height: 19px;
+transform: translateY(50%);
+padding-left: 440px;
 }
 
 </style>

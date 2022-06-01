@@ -2,7 +2,7 @@
   <div class="PersonalBar">
     
       <h1>Welkom Kim Wauben</h1>
-      <v-icon>mdi-home</v-icon>
+      <v-icon class="icon--account">mdi-account</v-icon>
     <slot />
   </div>
 </template>
@@ -24,5 +24,11 @@ height: 19px;
 padding-top: 25px;
 transform: translateY(-50%);
 padding-left: 372px;
+}
+
+.icon--account {
+height: 19px;
+transform: translateY(-80%);
+padding-left: 340px;
 }
 </style>

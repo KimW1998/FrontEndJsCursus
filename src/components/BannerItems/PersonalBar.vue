@@ -1,6 +1,8 @@
 <template>
   <div class="PersonalBar">
+    
       <h1>Welkom Kim Wauben</h1>
+      <v-icon>mdi-home</v-icon>
     <slot />
   </div>
 </template>

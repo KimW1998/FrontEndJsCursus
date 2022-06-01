@@ -1,7 +1,7 @@
 <template>
-  <div class="TopBannerBackgroundLight">
+  <div >
     <TopBannerBackgroundDark></TopBannerBackgroundDark>
-    <h4>Selecteer een categorie</h4>
+    <h4 class="TopBannerBackgroundLight">Selecteer een categorie</h4>
     <CategorieButton />
   </div>
 </template>
@@ -14,5 +14,7 @@ border-radius: 0px 0px 160px 0px;
 opacity: 0.2;
 height: 728px;
 width: 90%;
+padding-top: 600px;
+
 }
 </style>

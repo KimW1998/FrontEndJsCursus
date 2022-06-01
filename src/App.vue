@@ -4,6 +4,7 @@
       <v-container>
 		  <v-row>
 			  <v-col>
+				  <NavigationBar />
 		  <TopBannerBackgroundLight />
 		  
 		  </v-col>
@@ -13,7 +14,8 @@
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
         clita kasd gubergren, no sea takimata sanctus.
-
+        <br />
+		<br />
         <v-row>
           <v-col :sm="12" style="max-width: 285px">
             <FeaturedCard>

@@ -1,16 +1,22 @@
 <template>
+
   <v-app>
     <v-main>
       <v-container>
 		  <v-row>
 			  <v-col>
 				  <NavigationBar />
+				  
 		  <TopBannerBackgroundLight />
+		  <BannerLink />
+		  <BannerPersonal />
+		  <CategorieTekst />
+     
 		  
 		  </v-col>
         </v-row>
 	
-        <Title class="pt-9">Overzicht van je rewards</Title>
+        <Title class="pt-10">Overzicht van je rewards</Title>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
@@ -80,10 +86,9 @@
             </v-row>
           </v-col>
         </v-row>
-		</v-content>
 		</v-container>
       
     </v-main>
   </v-app>
-</template>
 
+</template>

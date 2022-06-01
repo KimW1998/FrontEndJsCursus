@@ -4,7 +4,8 @@
         
     </div>
 
-    <v-img src="./Images/Badge_locked.png"  max-height="90"
+    <v-img src="./Images/Badge_locked.png"  
+    max-height="90"
   max-width="90"></v-img>
   </div>
 </template>

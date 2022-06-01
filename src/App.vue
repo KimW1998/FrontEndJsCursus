@@ -18,7 +18,7 @@
         <br />
 		<br />
         <v-row>
-          <v-col :sm="4" >
+          <v-col :sm="4" class="col-8" >
             <FeaturedCard>
               <FeaturedCardTop>
                 <div>Persoonlijke Punten</div>
@@ -30,11 +30,11 @@
               </v-card-text>
 			  <hr />
 			  <v-row v-for="n in 3" :key="n">
-				  <v-col cols="2" class="pa-0">
+				  <v-col :md="2" class="pa-0 col-2">
                 <BadgeAchievements />
 				</v-col>
-				<v-col cols="10" class="pa-0">
-			  <v-card-text>
+				<v-col   :md="10"  class="pa-0">
+			  <v-card-text class="pl-9">
                 <h4>Inloggen</h4>
 				<p>Eerste keer ingelogd</p>
               </v-card-text>

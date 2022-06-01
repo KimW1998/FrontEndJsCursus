@@ -10,7 +10,7 @@
 		  </v-col>
         </v-row>
 	
-        <Title>Overzicht van je rewards</Title>
+        <Title class="pt-9">Overzicht van je rewards</Title>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
@@ -37,6 +37,7 @@
 			  <v-card-text class="pl-9">
                 <h4>Inloggen</h4>
 				<p>Eerste keer ingelogd</p>
+				<hr />
               </v-card-text>
 			  </v-col>
 			  </v-row>

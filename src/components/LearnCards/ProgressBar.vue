@@ -13,7 +13,7 @@
 
 <style>
 .ProgressBar {
-    padding-top:50px;
+    padding-top:5px;
     width: 70%;
 }
 </style>

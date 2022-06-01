@@ -9,6 +9,7 @@
 		  
 		  </v-col>
         </v-row>
+		<v-container class="card--page">
         <Title>Overzicht van je rewards</Title>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -79,7 +80,14 @@
             </v-row>
           </v-col>
         </v-row>
+		</v-container>
       </v-container>
     </v-main>
   </v-app>
 </template>
+
+<style scoped>
+.card--page {
+	padding: 30px 345px 0px 345px;
+}
+</style>

@@ -39,10 +39,9 @@
   letter-spacing: 0px;
   color: #00504a;
   display: flex;
-    top: 50%;
-  left: calc(50% + 30px);
-  transform: translate(-50%, -50%);
-
+  top: 50%;
+  left: calc(50% + 25px);
+  transform: translate(-50%, -50%); 
 }
 
 .Badge__Content {
@@ -50,7 +49,6 @@
   position: absolute;
   text-align: center;
   width: 40px;
-
 }
 
 .a {

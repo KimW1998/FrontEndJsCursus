@@ -1,6 +1,6 @@
 <template>
 
-  <div class="NavigationBar">
+  <div class="NavigationBar pb-0">
     <PersonalBar />
     
     <v-toolbar class="NavigationBar" color="#FFFFFF" flat

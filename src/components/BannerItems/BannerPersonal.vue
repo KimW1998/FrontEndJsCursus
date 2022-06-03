@@ -34,6 +34,7 @@
 .Banner--Personal {
   padding-top: 0px;
   padding-bottom: 50px;
+  position: relative;
 }
 
 .Banner--Personal-Image {
@@ -51,6 +52,7 @@ opacity: 1;
 
 .Banner--Personal_Name {
   color: white;
+  
 }
 
 .Banner--Personal_Function {

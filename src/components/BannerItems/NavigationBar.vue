@@ -23,15 +23,33 @@
 
 <style scoped>
 .NavigationBar--bg {
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-background: #FFFFFF 0% 0% no-repeat padding-box;
+background: #FFFFFF;
 box-shadow: 0px 7px 22px #00000014;
 opacity: 1;
 height: 80px;
-width: 100vw;
+width: 100%;
 position: absolute;
-left: -12.5%;
 z-index: -1;
+}
+
+.NavigationBar--bg::before{
+position:absolute;
+left: -50%;
+background: #FFFFFF;
+width: 100%;
+height: 80px;
+content:"";
+
+}
+
+.NavigationBar--bg::after{
+position:absolute;
+left: 50%;
+background: #FFFFFF;
+width: 100%;
+height: 80px;
+content:"";
+
 }
 
 .NavigationBar--logo {

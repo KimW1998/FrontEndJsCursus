@@ -1,7 +1,6 @@
 <template>
     <div class="LearnCardBottom">
-        <p class="text-center">Update 31-05-2022</p>
-        <slot/>
+        <p class="text-center"><slot /></p>
     </div>
 </template>
 

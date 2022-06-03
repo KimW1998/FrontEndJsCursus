@@ -1,3 +1,16 @@
+<script>
+export default {
+  data: (vm) => ({
+    items: [],
+  }),
+  async created() {
+    this.items = await fetch(`http://localhost:5002/posts`).then((e) =>
+      e.json()
+    );
+  },
+};
+</script>
+
 <template>
   <v-app>
     <v-main>
@@ -42,6 +55,7 @@
               <dateField />
               <br />
               <hr />
+
               <v-row v-for="n in 3" :key="n">
                 <v-col :md="2" class="pa-0 col-2">
                   <BadgeAchievements />
@@ -68,20 +82,19 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col :cols="12" md="4" v-for="n in 10" :key="n">
+              <v-col :cols="12" md="4" v-for="(item, index) in items" :key="index">
                 <LearnCard>
                   <LearnCardTop> </LearnCardTop>
                   <BadgeLearn />
-                  <p class="text-center">2 / 5 voltooid</p>
+                  <p class="text-center">{{item.progress}}</p>
                   <ProgressBar />
                   <v-card-text>
-                    <h1 class="text-center">Leeractiviteiten</h1>
-                    <p class="text-center">
-                      Je hebt 2 van de 5 leeractiviteiten afgerond. Rond er 5 af
-                      en verdien de bronze badge!
+                    <h1 class="text-center">{{item.title}}</h1>
+                    <p class="text-center pt-3">
+                      {{item.message}}
                     </p>
                   </v-card-text>
-                  <LearnCardBottom> </LearnCardBottom>
+                  <LearnCardBottom> {{item.update}}</LearnCardBottom>
                 </LearnCard>
               </v-col>
             </v-row>

@@ -18,14 +18,34 @@
 <style scoped>
 
 .PersonalBar--bg {
-background: var(--unnamed-color-e6f3e9) 0% 0% no-repeat padding-box;
-background: #E6F3E9 0% 0% no-repeat padding-box;
+
+background:#E6F3E9;
 opacity: 1;
-width: 100vw;
+width: 100%;
 position: absolute;
-left: -12.5%;
 z-index: -1;
 height: 50px;
+
+}
+
+.PersonalBar--bg::before{
+position:absolute;
+left: -50%;
+background: #E6F3E9;
+width: 100%;
+height: 50px;
+content:"";
+
+}
+
+.PersonalBar--bg::after{
+position:absolute;
+left: 50%;
+background: #E6F3E9;
+width: 100%;
+height: 50px;
+content:"";
+
 }
 
 

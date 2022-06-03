@@ -5,7 +5,7 @@
                 <v-row>
                     <v-col >
                         <p class="text-center ma-0">Van</p>
-                        <p class="text-center ma-0">Date</p>
+                        <p class="text-center ma-0">25-10-1998</p>
                     </v-col>
                 </v-row>
             </v-col>
@@ -14,7 +14,7 @@
                               <v-row>
                     <v-col >
                         <p class="text-center ma-0">Tot</p>
-                        <p class="text-center ma-0">Date</p>
+                        <p class="text-center ma-0">....</p>
                     </v-col>
                 </v-row>
             </v-col>

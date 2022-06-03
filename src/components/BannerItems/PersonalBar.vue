@@ -10,7 +10,7 @@
       <v-icon class="icon--medal">mdi-medal</v-icon>
       <v-icon class="icon--medal">mdi-bell</v-icon>
       <v-icon class="icon--medal">mdi-email</v-icon>
-      <v-icon class="icon--medal">mdi-alert-circle</v-icon>
+      <v-icon class="icon--medal">mdi-help-circle</v-icon>
 
   </v-toolbar>
 </template>

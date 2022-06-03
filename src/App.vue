@@ -27,13 +27,15 @@
           <v-col :sm="4" class="col-8" >
             <FeaturedCard>
               <FeaturedCardTop>
-                <div>Persoonlijke Punten</div>
+				  <div>Persoonlijke Punten</div>
                 <FeaturedCardStat>32</FeaturedCardStat>
               </FeaturedCardTop>
               <v-card-text>
-                <Badge />
+				  <Badge />
                 <h1 class="text-center">Behaalde punten</h1>
               </v-card-text>
+				  <dateField />
+				  <br />
 			  <hr />
 			  <v-row v-for="n in 3" :key="n">
 				  <v-col :md="2" class="pa-0 col-2">

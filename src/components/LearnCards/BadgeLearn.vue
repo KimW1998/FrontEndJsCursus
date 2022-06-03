@@ -1,10 +1,18 @@
+<script>
+export default {
+  props: {
+    item: {}
+  }
+}
+</script>
+
 <template>
   <div class="Badge d-flex justify-center">
     <div class="Badge__Content">
         
     </div>
 
-    <v-img src="./Images/Badge_locked.png"  
+    <v-img :src="item.badge"  
     max-height="90"
   max-width="90"></v-img>
   </div>

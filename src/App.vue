@@ -2,9 +2,13 @@
 export default {
   data: (vm) => ({
     items: [],
+	comments: [],
   }),
   async created() {
     this.items = await fetch(`http://localhost:5002/posts`).then((e) =>
+      e.json()
+    );
+	 this.comments = await fetch(`http://localhost:5002/comments`).then((e) =>
       e.json()
     );
   },
@@ -56,14 +60,14 @@ export default {
               <br />
               <hr />
 
-              <v-row v-for="n in 3" :key="n">
+              <v-row v-for="(comment, index) in comments" :key="index">
                 <v-col :md="2" class="pa-0 col-2">
-                  <BadgeAchievements />
+                  <BadgeAchievements>{{comment.count}}</BadgeAchievements>
                 </v-col>
                 <v-col :md="10" class="pa-0">
                   <v-card-text class="pl-9">
-                    <h4>Inloggen</h4>
-                    <p>Eerste keer ingelogd</p>
+                    <h4>{{comment.achievement}}</h4>
+                    <p>{{comment.action}}</p>
                     <hr />
                   </v-card-text>
                 </v-col>
@@ -84,12 +88,12 @@ export default {
             <v-row>
               <v-col :cols="12" md="4" v-for="(item, index) in items" :key="index">
                 <LearnCard>
-                  <LearnCardTop> </LearnCardTop>
-                  <BadgeLearn />
-                  <p class="text-center">{{item.progress}}</p>
-                  <ProgressBar />
+                  <LearnCardTop :item="item"> </LearnCardTop>
+                  <BadgeLearn :item="item" />
+                  <p class="text-center">{{item.progress}} / 5 voltooid</p>
+                  <ProgressBar :item="item"/>
                   <v-card-text>
-                    <h1 class="text-center">{{item.title}}</h1>
+                    <h1 class="text-center pb-3">{{item.title}}</h1>
                     <p class="text-center pt-3">
                       {{item.message}}
                     </p>

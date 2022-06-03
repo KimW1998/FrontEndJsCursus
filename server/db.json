@@ -3,104 +3,130 @@
     {
       "id": 1,
       "title": "Leeractiviteiten",
-      "progress": "2 / 5 voltooid",
+      "progress": "2",
+      "progressbar": "30",
       "message": "Je hebt 2 van de 5 leeractiviteiten afgerond. Rond er 5 af en verdien de bronze badge!",
       "update": "31-05-2022",
       "badge": "./Images/Badge_locked.png",
       "background": "./Images/LearnCardBackground.png"
+     
     },
     {
       "id": 2,
       "title": "Leeractiviteiten",
-      "progress": "3 / 5 voltooid",
+      "progress": "3",
+      "progressbar": "50",
       "message": "Je hebt 3 van de 5 leeractiviteiten afgerond. Rond er 5 af en verdien de bronze badge!",
       "update": "15-05-2022",
       "badge": "./Images/Badge_bronze.png",
-      "background": "./Images/Badge_bronze_background"
+      "background": "./Images/Badge_bronze_background.png"
+      
     },
     {
       "id": 3,
       "title": "Leerpaden",
-      "progress": "4 / 5 voltooid",
+      "progress": "4",
+      "progressbar": "80",
       "message": "Je hebt 4 van de 5 leeractiviteiten afgerond. Rond er 5 af en verdien de bronze badge!",
       "update": "30-05-2022",
       "badge": "./Images/Badge_silver.png",
-      "background": "./Images/Badge_silever_background"
+      "background": "./Images/Badge_silever_background.png"
+
     },
     {
       "id": 4,
       "title": "Thema leeractiviteiten",
-      "progress": "5 / 5 voltooid",
+      "progress": "5",
+      "progressbar": "100",
       "message": "Je hebt 5 van de 5 leeractiviteiten afgerond. Gefeliciteerd!",
       "update": "Gehaald! 02-06-2022",
       "badge": "./Images/Badge_gold.png",
-      "background": "./Images/Badge_gold_background"
+      "background": "./Images/Badge_gold_background.png"
     },
     {
       "id": 5,
       "title": "Leerpaden",
-      "progress": "5 / 5 voltooid",
+      "progress": "5",
+      "progressbar": "100",
       "message": "Je hebt 5 van de 5 leeractiviteiten afgerond. Gefeliciteerd!",
       "update": "Gehaald! 01-06-2022",
       "badge": "./Images/Badge_platinum.png",
-      "background": "./Images/Badge_platinum_background"
+      "background": "./Images/Badge_platinum_background.png"
     },
     {
       "id": 6,
       "title": "Werkvormen",
-      "progress": "1 / 5 voltooid",
+      "progress": "1",
+      "progressbar": "10",
       "message": "Je hebt 1 van de 5 leeractiviteiten afgerond. Rond er 5 af en verdien de bronze badge!",
       "update": "15-05-2022",
       "badge": "./Images/Badge_blue.png",
-      "background": "./Images/Badge_blue-background"
+      "background": "./Images/Badge_blue-background.png"
     }
     ,
     {
       "id": 7,
       "title": "Opleiding bekeken",
-      "progress": "4 / 5 voltooid",
+      "progress": "4",
+      "progressbar": "80",
       "message": "Je hebt 4 van de 5 leeractiviteiten afgerond. Rond er 5 af en verdien de bronze badge!",
       "update": "20-05-2022",
       "badge": "./Images/Badge_red.png",
-      "background": "./Images/Badge_red_background"
+      "background": "./Images/Badge_red_background.png"
     }
     ,
     {
       "id": 8,
       "title": "Eerste keer inloggen",
-      "progress": "2 / 5 voltooid",
+      "progress": "2",
+      "progressbar": "30",
       "message": "Je hebt 2 van de 5 leeractiviteiten afgerond. Rond er 5 af en verdien de bronze badge!",
       "update": "31-05-2022",
       "badge": "./Images/Badge_green.png",
-      "background": "./Images/Badge_green_background"
+      "background": "./Images/Badge_green_background.png"
     }
     ,
     {
       "id": 9,
       "title": "Opleidingsbudget",
-      "progress": "4 / 5 voltooid",
+      "progress": "4",
+      "progressbar": "80",
       "message": "Je hebt 4 van de 5 leeractiviteiten afgerond. Rond er 5 af en verdien de bronze badge!",
       "update": "29-05-2022",
       "badge": "./Images/Badge_pink.png",
-      "background": "./Images/Badge_pink_background"
+      "background": "./Images/Badge_pink_background.png"
     }
     ,
     {
       "id": 10,
       "title": "Afronding thema",
-      "progress": "1 / 5 voltooid",
+      "progress": "1",
+      "progressbar": "10",
       "message": "Je hebt 1 van de 5 leeractiviteiten afgerond. Rond er 5 af en verdien de bronze badge!",
       "update": "24-05-2022",
       "badge": "./Images/Badge_purple.png",
-      "background": "./Images/Badge_purple_background"
+      "background": "./Images/Badge_purple_background.png"
     }
+ 
   ],
   "comments": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
+      "count": "4",
+      "achievement": "Inloggen",
+      "action": "Eerste keer ingelogd"
+    },
+  {
+    "count": "8",
+    "achievement": "Profiel",
+    "action": "Profiel bezoeken"
+  },
+  {
+    "count": "10",
+    "achievement": "Comment",
+    "action": "Comment bij een thema"
+  }
+    
   ],
   "profile": {
     "name": "typicode"

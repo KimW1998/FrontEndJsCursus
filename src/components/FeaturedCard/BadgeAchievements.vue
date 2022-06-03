@@ -1,7 +1,7 @@
 <template>
   <div class="Badge">
     <div class="Badge__Content">
-        <slot>?</slot>
+        <slot />
     </div>
 
     <svg

@@ -1,7 +1,15 @@
+<script>
+export default {
+  props: {
+    item: {}
+  }
+}
+</script>
+
 <template>
 <div class="ProgressBar d-flex justify-center mx-auto">
     <v-progress-linear
-     value="40"
+     :value="item.progressbar"
      color="red"
      rounded
      stream

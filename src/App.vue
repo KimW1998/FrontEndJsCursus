@@ -1,11 +1,11 @@
 <template>
 
   <v-app>
-    <v-main>
-      <v-container>
-		  <v-row>
-			  <v-col>
-				  <NavigationBar />
+	  <v-main>
+		  <v-container>
+			  <v-row>
+				  <v-col>
+					  <NavigationBar />
 				  
 		  <TopBannerBackgroundLight />
 		  <BannerLink />
